@@ -1,6 +1,7 @@
 module github.com/crystaldust/docker-pilot
 
 require (
+	fortio.org/fortio v1.3.0 // indirect
 	github.com/cenkalti/backoff v2.0.0+incompatible // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/emicklei/go-restful v2.8.0+incompatible // indirect
@@ -59,8 +60,8 @@ require (
 	istio.io/api v0.0.0-20181101000712-d2dcf0047fe3 // indirect
 	istio.io/istio v0.0.0-20181101215711-6a9bd943ff34
 	k8s.io/api v0.0.0-20181101211808-7c111c89a854 // indirect
-	k8s.io/apiextensions-apiserver v0.0.0-20181101094448-84f7c7786e29 // indirect
-	k8s.io/apimachinery v0.0.0-20181101131016-0aa9751e8aaf // indirect
-	k8s.io/client-go v9.0.0+incompatible // indirect
+	k8s.io/apiextensions-apiserver v0.0.0-20180925155151-ce69c54e57693220512104c84941e2ef1876449a // indirect
+	k8s.io/apimachinery v0.0.0-20180823151430-fda675fbe85280c4550452dae2a5ebf74e4a59b7 // indirect
+	k8s.io/client-go v8.0.0+incompatible // indirect
 	k8s.io/kube-openapi v0.0.0-20181031203759-72693cb1fadd // indirect
 )
